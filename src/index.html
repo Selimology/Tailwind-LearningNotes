@@ -93,7 +93,12 @@
       <!--=========================================-->
 
       <div class="relative"">
-        <div class="container mx-auto px-12 text-center py-24">
+
+        <!-- purple continuation -->
+        <div class="absolute bottom-0 h-64 bg-purple-500 inset-x-0"></div>
+
+
+        <div class="container mx-auto px-12 text-center py-12">
           <!-- heading -->
           <h1
             class="mb-4 text-5xl  lg:text-6xl font-extrabold tracking-wider text-transparent"
@@ -123,7 +128,7 @@
             <img
               src="/img/wysbBMS.png"
               alt="Image"
-              class="rounded-lg border-4 border-pink-500"
+              class="rounded-lg border-4 border-pink-500 shadow-2xl"
             />
             <!-- this is the teaser image info -->
             <div
@@ -143,22 +148,25 @@
     <!-- overview =========================================-->
     <!--=========================================-->
 
-    <div class="bg-purple-500 py-12">
-      <div class="container mx-auto px-12">
+    <div class="bg-purple-500 pt-2 lg:pt-12 pb-24 relative">
+
+      <!-- gray bar -->
+      <div class="absolute bg-gray-300 h-64 bottom-0 inset-x-0"></div>
+      <div class="relative container mx-auto px-12 pb-20">
         
-        <h2 class="mb-10 text-white text-6xl font-bold">Just Lorem Ipsum Trying</h2>
-        <div class="flex space-x-16">
+        <h2 class="mb-10 text-center lg:text-left text-white text-4xl lg:text-6xl font-bold">Just Lorem Ipsum Trying</h2>
+        <div class="block lg:flex lg:space-x-16 space-y-8 lg:space-y-0">
 
           <!-- left -->
-          <div class="w-2/3 bg-white space-y-8 p-12 rounded shadow-xl text-gray-800 text-lg">
-            <p>Tailwind makes writing CSS easier and lets us customize our designs faster than any other CSS framework. If you want a CSS framework that has pre-built components, then Tailwind may not be for you. If you want a CSS framework that lets you design quickly and customize your site, then Tailwind is gonna be a lot of fun.</p>
-            <p>After using Bulma to build Scotch.io, my CSS files became littered with my own!importantclasses to override the framework's styles. Tailwind doesn't have the !importantproblem since all our elements are designed on the fly.
-              Important Note: Tailwind lets us design quickly, but this doesn't mean that you don't need CSS knowledge however. To use Tailwind, you need to have a good understanding of CSS properties. In this course, we will learn Tailwind and we'll also learn CSS conceptsto create good looking designs. Tailwind is the ultimate CSS shorthand, but we still need to learn the CSS, which we'll do in this course.</p>
-            <p>This isn't just a Tailwind course. This is also a "learn how to design with CSS" course.</p>
+          <div class=" lg:w-2/3 bg-white space-y-8 p-12 lg:p-16 rounded shadow-xl text-gray-800 text-lg leading-relaxed">
+            <p>Tailwind makes writing CSS easier and lets us customize our designs faster than any other CSS framework. If you want a CSS framework that has pre-built components, then Tailwind may not be for you. If you want a CSS framework that lets you design quickly and customize your site, then <strong class="text-purple-500 font-bold">Tailwind is gonna be a lot of fun.</strong></p>
+            <p>After using Bulma to build Scotch.io, my CSS files became littered with my own <code class="text-xs inline-block px-2 rounded bg-gray-200 text-red-700 font-mono">!important</code>classes to override the framework's styles. Tailwind doesn't have the !importantproblem since all our elements are designed on the fly.
+              Important Note: Tailwind lets us design quickly, but this doesn't mean that you don't need CSS <strong class="text-purple-500 font-bold">knowledge however.</strong>To use Tailwind, you need to have a good understanding of CSS properties. In this course, we will learn Tailwind <a href="#" class="text-purple-500 hover:text-purple-300 ">and we'll also learn</a>  CSS conceptsto create good looking designs. Tailwind is the ultimate CSS shorthand, but we still need to learn the CSS, which we'll do in this course.</p>
+            <p class="text-3xl italic relative"><span class="absolute top-0 left-0 transform -translate-y-6 -translate-x-10 text-8xl text-purple-600 opacity-50 -rotate-12 ">"</span>This isn't just a Tailwind course. This is also a "learn how to design with CSS" course.</p>
             <p>The hardest things about learning Tailwind is memorizing the classes and also knowing which classes go well together. We'll be writing a lot of Tailwind in this course so that the repetition will help us commit Tailwind classes to memory.</p>
           </div>
           <!-- right -->
-          <div class="flex-grow  text-xl italic space-y-8">
+          <div class="flex-grow  text-xl italic space-y-3">
             <div class="p-8 bg-purple-700 rounded-md shadow text-white "><p class="">What classes should I use?</p></div>
             <div class="p-8 bg-purple-700 rounded-md shadow text-white "><p class="">How do I make things look good?</p></div>
             <div class="p-8 bg-purple-700 rounded-md shadow text-white "><p class="">My design looks basic?</p></div>
